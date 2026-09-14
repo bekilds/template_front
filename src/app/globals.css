@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom right, aliceblue, lightskyblue);
+    background: #EDECDB;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 
 .skeleton {
     display: block;
-    margin:2rem auto;
+    margin: 2rem auto;
     width: 350px;
 }
 

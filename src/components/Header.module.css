@@ -1,13 +1,15 @@
 .header {
-    background-color: lightskyblue;
+    background-color: #6BB1AD;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    color: #EDECDB;
 }
 
 .header h1 {
     margin-right: 1rem;
+    color: #E6748E;
 }
 
 .left {
@@ -19,6 +21,7 @@
 .atom {
     display: flex;
     animation: spin 10s linear infinite;
+    color: #E5A9A9;
 }
 
 @keyframes spin {
@@ -33,18 +36,22 @@
 
 .header h2 {
     margin-bottom: 0.5rem;
+    color: #EDECDB;
 }
 
 .header span {
     font-weight: bold;
     font-size: 1.2rem;
+    color: #E5A9A9;
 }
 
 .verb {
     font-weight: bold;
     text-decoration: none;
+    color: #E6748E;
 }
 
 .verb:hover {
     text-decoration: underline;
+    color: #EDECDB;
 }
